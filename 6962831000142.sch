@@ -2282,4 +2282,27 @@ Wire Wire Line
 Connection ~ 12700 3500
 Wire Wire Line
 	12700 3500 13050 3500
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F74EED2
+P 14000 1850
+F 0 "JP?" V 13954 1918 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 14045 1918 50  0000 L CNN
+F 2 "" H 14000 1850 50  0001 C CNN
+F 3 "~" H 14000 1850 50  0001 C CNN
+	1    14000 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5F74F512
+P 14000 3250
+F 0 "JP?" H 14000 3455 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 14000 3364 50  0000 C CNN
+F 2 "" H 14000 3250 50  0001 C CNN
+F 3 "~" H 14000 3250 50  0001 C CNN
+	1    14000 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 14150 3250
 $EndSCHEMATC
